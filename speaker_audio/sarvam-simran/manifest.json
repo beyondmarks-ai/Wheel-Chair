@@ -1,0 +1,54 @@
+{
+  "device": "9625097008000EB",
+  "card": "/storage/6434-6361/mp3",
+  "backup": "D:\\Wheelchair\\speaker_audio\\backups\\pre-sarvam-20261014-193857",
+  "prepared": "2026-10-14T19:39:00.919587",
+  "recordings": [
+    {
+      "track": "0001",
+      "text": "Emergency.",
+      "speaker": "simran_en_customer",
+      "model": "bulbul:v4-flash",
+      "sha256": "43bd203b84fc69a3eb2c41c26bff796432678c4275dcb697a052d3ae26234148",
+      "original_card_sha256": "e503d63d210ecbad9cac6cceafbd7f6176d9c377de7611b9df4818ea3767d2d4",
+      "duration_seconds": 0.88
+    },
+    {
+      "track": "0002",
+      "text": "Alert, motion detected.",
+      "speaker": "simran_en_customer",
+      "model": "bulbul:v4-flash",
+      "sha256": "d5f5f798092a9cbdef36902465504002e3fe8886540336a65080d46fc1aa255f",
+      "original_card_sha256": "473d8ba996fd1d6a883589c6a12771ac36c7b7a15fc156280affa9cb8d21be48",
+      "duration_seconds": 1.52
+    },
+    {
+      "track": "0003",
+      "text": "Yes.",
+      "speaker": "simran_en_customer",
+      "model": "bulbul:v4-flash",
+      "sha256": "1d3afd3e070c07ac3a83f6b8fd2edb4f54c5681439e74bc0cc502b33ea988264",
+      "original_card_sha256": "6553e759f5d2696e9750a78e7f5ee6ca5454df3b031bebc01716f5db7217ad8f",
+      "duration_seconds": 0.64
+    },
+    {
+      "track": "0004",
+      "text": "Please help me.",
+      "speaker": "simran_en_customer",
+      "model": "bulbul:v4-flash",
+      "sha256": "2b3957f8639e79cd933e0b966aff6bab8253b6869cc300076455bfa80ee30ac7",
+      "original_card_sha256": "43077334cdb2d7d759b820f255ad5823320afe89ca506aafacb9e6fff09208b4",
+      "duration_seconds": 0.88
+    },
+    {
+      "track": "0005",
+      "text": "Please come here.",
+      "speaker": "simran_en_customer",
+      "model": "bulbul:v4-flash",
+      "sha256": "3a58e54235707de255a1d285e2930415fa7ca01243945a857efffa50331650bc",
+      "original_card_sha256": "2e6bbfeadaa2b3fae0196a2e87fd7ee03f50c5a880a52ae17fde95415a7f304f",
+      "duration_seconds": 0.8
+    }
+  ],
+  "installed_and_verified": "2026-10-14T19:39:35.449455"
+}

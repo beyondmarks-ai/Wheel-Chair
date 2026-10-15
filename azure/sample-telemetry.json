@@ -1,0 +1,10 @@
+{
+  "deviceId": "wheelchair-esp32-01",
+  "heartRate": 78,
+  "spo2": 97,
+  "temperatureC": 31.2,
+  "tiltAlert": false,
+  "obstacleCm": 85,
+  "batteryPercent": 92,
+  "sos": false
+}

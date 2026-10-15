@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <queries><intent><action android:name="android.intent.action.TTS_SERVICE" /></intent></queries>
+    <application android:theme="@android:style/Theme.Material.Light.NoActionBar"
+        android:label="Wheelchair Blink" android:icon="@drawable/app_icon" android:allowBackup="false" android:dataExtractionRules="@xml/data_extraction_rules"
+        android:usesCleartextTraffic="true" android:supportsRtl="true">
+        <activity android:name=".HomeActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:exported="true" />
+        <service android:name=".MonitorService" android:exported="false" android:foregroundServiceType="connectedDevice" />
+        <activity android:name=".HealthActivity" android:exported="false" />
+        <activity android:name=".AdminActivity" android:exported="false" />
+        <activity android:name=".AlertsActivity" android:exported="false" />
+        <activity android:name=".GuardianActivity" android:exported="false" />
+        <receiver android:name=".GuardianSmsReceiver" android:exported="false" />
+        <activity android:name=".CareActivity" android:exported="false" />
+        <service android:name=".CareVoiceService" android:exported="false" android:foregroundServiceType="mediaPlayback" />
+        <receiver android:name=".CareReceiver" android:exported="false" />
+        <receiver android:name=".CareRestoreReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

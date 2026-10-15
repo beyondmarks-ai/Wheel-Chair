@@ -1,0 +1,53 @@
+# Device credentials and local firmware backups may contain secrets.
+azure/.env
+azure/device-config.h
+azure_iot_live/iot_configs.h
+esp32_firmware_backup_*.bin
+
+# Generated inspection files.
+tmp/
+.venv-blink/
+blink_monitor/models/
+blink_monitor/local/
+__pycache__/
+android_phone/.gradle/
+android_phone/**/build/
+android_phone/local.properties
+android_phone/local/
+android_phone/app/src/main/assets/face_landmarker.task
+
+# Build outputs, editor state, signing material and local data.
+**/build/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.apk
+*.aab
+*.bin
+*.elf
+*.map
+*.log
+*.hprof
+*.jks
+*.keystore
+*.p12
+*.db
+*.db-wal
+*.db-shm
+*.pyc
+local.settings.json
+android_phone/dist/
+speaker_audio/backups/
+speaker_audio/**/*.zip
+speaker_audio/*.zip
+speaker_audio/**/wav/
+speaker_audio/care-voices/latest-installation.json
+speaker_audio/care-voices/new-scheduling-sources.json
+audio/
+
+# Local project brief and device inspection reports.
+/Project Synopsis Paralysis.pdf
+/component-check-*.md
+/camera-test-results.md

@@ -1,0 +1,146 @@
+[
+  {
+    "track": 2990,
+    "key": "tablet",
+    "text": "It's time for your tablet. Please follow your prescribed schedule.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 3.84,
+    "sha256": "d1f7f4915b910a4555ce0b3345fe14924e1c26b18579147b4d54403f83986cff"
+  },
+  {
+    "track": 2991,
+    "key": "medicine",
+    "text": "It's time for your medicine. Please follow your prescribed schedule.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 3.84,
+    "sha256": "853eb0220b28c4a6e7edbb1fbdf330546dd55add9fc49e4e365ea4f9df536437"
+  },
+  {
+    "track": 2992,
+    "key": "doctor",
+    "text": "It's time for your doctor visit. Please get ready for your appointment.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 3.76,
+    "sha256": "4133e9c82dc14282077174768a5a229ff79ef69397d44d08bd1c385c4e12fadb"
+  },
+  {
+    "track": 2999,
+    "key": "obstacle_demo",
+    "text": "Demo. Obstacle ahead. Please stop and check the path.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 4.0,
+    "sha256": "df5522dfcfc258ff01989349e4b641ea4e42ffd8eade64836fcc14d6b165d3c0"
+  },
+  {
+    "track": 2900,
+    "key": "wake_up",
+    "text": "Good morning. It's time to wake up.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 2.4,
+    "sha256": "0de82467ef9c6d96c67099afc71e49a8ee7f439e0a54f4cb0beb68bcd7762471"
+  },
+  {
+    "track": 2901,
+    "key": "morning_care",
+    "text": "It's time for your morning wash and personal care.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 2.72,
+    "sha256": "7b2c111c9fa06bbbccd8ca0ea274a9272247a8f7d6537c6b78aa54e005ef866b"
+  },
+  {
+    "track": 2902,
+    "key": "breakfast",
+    "text": "It's time for breakfast.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 1.44,
+    "sha256": "33fc642d26f3c151bf6c0b93f6250dc89b84bd529fbbe1b0c7de5007ea5ee75b"
+  },
+  {
+    "track": 2903,
+    "key": "water",
+    "text": "It's time for your planned water break.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 2.24,
+    "sha256": "61142f55256977e686fed51787ece8be1d6e6fc112acc3a0d1c341aabf601ef1"
+  },
+  {
+    "track": 2904,
+    "key": "position_change",
+    "text": "It's time for a position change. Please ask your caregiver for help.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 4.32,
+    "sha256": "d72c39722a01cf1defad84ea0fa9866851c3b4c661a055df1445eb2df6c58e3a"
+  },
+  {
+    "track": 2905,
+    "key": "physiotherapy",
+    "text": "It's time for your prescribed physiotherapy session.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 2.72,
+    "sha256": "126c910a42197d13680b522c6d31407feccee2bbb45d491f137f5eef58f56d8c"
+  },
+  {
+    "track": 2906,
+    "key": "lunch",
+    "text": "It's time for lunch.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 1.28,
+    "sha256": "66281cea67c0d5def3746e710cbb1c8e2bdd1f040ceb2b1fafeeec0d9d757e96"
+  },
+  {
+    "track": 2907,
+    "key": "toilet_routine",
+    "text": "It's time for your scheduled toilet routine.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 2.24,
+    "sha256": "3902ee9bc44febd0063ec49a73939addb626ceba1d7ae15f3e5e2668816a4f9c"
+  },
+  {
+    "track": 2908,
+    "key": "health_check",
+    "text": "It's time to check and record your health readings.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 2.64,
+    "sha256": "e28a26272928aac8e110909632241cd639f453443126bc968552dad882100293"
+  },
+  {
+    "track": 2909,
+    "key": "rest",
+    "text": "It's time for your rest break.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 1.6,
+    "sha256": "5fe87f3144e733b50c07a7338e4efc8de9de38e82bc3d566b8a331158e46009d"
+  },
+  {
+    "track": 2910,
+    "key": "dinner",
+    "text": "It's time for dinner.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 1.04,
+    "sha256": "89fdf5dfa44297c54a1f1820a3b3450c485a66920df15ccdd14713d0c736f674"
+  },
+  {
+    "track": 2911,
+    "key": "bedtime",
+    "text": "It's time to prepare for bed.",
+    "speaker": "simran_en_customer",
+    "model": "bulbul:v4-flash",
+    "duration_seconds": 1.6,
+    "sha256": "cba662706fa50ebb6076a47e3538069db426568402a088e5617a6ea74ce86836"
+  }
+]
