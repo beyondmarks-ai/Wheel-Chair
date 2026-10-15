@@ -20,8 +20,10 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Prepare runner Android SDK
-        run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;35.0.0'
+          log-accepted-android-sdk-licenses: false
       - uses: gradle/actions/setup-gradle@v4
       - run: python tools/prepare_android_model.py
       - run: ./android_phone/gradlew -p android_phone testDebugUnitTest lintDebug assembleDebug --no-daemon
