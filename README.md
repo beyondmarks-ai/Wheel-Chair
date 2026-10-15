@@ -18,7 +18,7 @@ Current Android version: **0.18-care-dashboard** (version code 18).
 
 ## Build the Android APK
 
-Install **JDK 17**, **Python 3.8+**, and Android SDK **platform 36** with
+Install **JDK 17 or 21**, **Python 3.8+**, and Android SDK **platform 36** with
 **build-tools 35.0.0**. Android Studio can install the SDK. Set `JAVA_HOME` and
 `ANDROID_HOME`, or let Android Studio create `android_phone/local.properties`.
 The Gradle wrapper downloads Gradle 8.14.5. An internet connection is needed for
