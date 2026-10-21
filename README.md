@@ -118,3 +118,10 @@ keys are excluded from Git. The face model is downloaded from Google's versioned
 MediaPipe model store with a pinned SHA-256. Third-party libraries, model and
 Sarvam-generated recordings remain subject to their respective terms; publishing
 this repository does not grant additional rights to those materials.
+
+<!-- beyond-marks-credit:start -->
+---
+### Built by Beyond Marks AI Academy
+
+Developed by **Rakesh Kumar** at [Beyond Marks AI Academy](https://beyondmarks.ai).
+<!-- beyond-marks-credit:end -->
